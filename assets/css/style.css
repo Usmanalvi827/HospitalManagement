@@ -121,7 +121,7 @@ p {
 }
 
 .wrapper {
-    padding: 100px 0px;
+    padding: 130px 0px;
 }
 
 /* Custom-Css Close */
@@ -130,9 +130,11 @@ p {
 
 .nav-hed .navbar {
     padding: 15px;
-    background-color: transparent;
-    transition: 0.3s ease-in-out;
     background-color: white;
+    /* changes */
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
 }
 
 .nav-hed .navbar-toggler {
@@ -180,14 +182,13 @@ width: 100%;
 }
 
 .navbar.header-scrolled{
-position: fixed;
+/* position: fixed; */
 top: 0;
 left: 0;
 z-index: 9999;
 width: 100%;
 background-color: white;
 box-shadow: 8px 18px 40px 0 rgb(0 0 0 /8%);
-transition: .15s ease all;
 }
 
 
