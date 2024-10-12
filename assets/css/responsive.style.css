@@ -1,0 +1,221 @@
+@media only screen and (min-width :300px) and (max-width: 519px) {
+    header {
+        overflow: hidden;
+    }
+    section {
+        overflow: hidden;
+    }
+    h1 {
+        font-size: 42px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+    .ban-sec p {
+        max-width: 100%;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    
+    .nav-hed .navbar {
+     padding:10px ;
+    }
+
+    .nav-hed .navbar-brand img {
+        width: 100px;
+    }
+
+    .nav-hed .icon-nav {
+        font-size: 18px;
+    }
+
+    .nav-hed .nav-item .nav-link {
+        font-size: 14px;
+    }
+
+    .ban-btn a {
+        display: inline-block;
+        /* width: 100%; */
+        font-size: 14px;
+    }
+
+    .ban-sec .anim-imges {
+        display: flex;
+    }
+
+    .card {
+    padding: 40px 50px;
+    } 
+
+    .menu-navbar {
+        text-align: center;
+    }
+    .abt-sec .card {
+        width: 100%;
+        padding: 50px 25px;
+    }
+    .abt-sec .abt-image {
+        width: 120px;
+        left: 15px;
+    }
+    .abt-sec .about-clinic:nth-child(2), .abt-sec .about-clinic:nth-child(4){
+        padding-left: 28px;
+    }
+    .abt-sec .about-clinic:nth-child(1), .abt-sec .about-clinic:nth-child(3){
+        padding-right: 28px;
+    }
+    .abt-txt {
+        margin-top: 40px;
+    }
+    .serv-sec .card {
+        text-align: center;
+    }
+ .testi-txt {
+    text-align: center;
+    margin-top: 40px;
+}
+.conatct-sec {
+    text-align: center;
+}
+
+.form-grp button {
+    width: 100%;
+    padding: 10px;
+}
+.conatct-sec .copy-rightsec,
+.conatct-sec .copy-rightsec a {
+    letter-spacing: 0px;
+}
+
+
+}
+
+@media only screen and (min-width :520px) and (max-width: 768px) {
+    header {
+        overflow: hidden;
+    }
+    section {
+        overflow: hidden;
+    }
+    .menu-navbar {
+        text-align: center;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 18px;
+    }
+    .nav-hed .nav-item .nav-link {
+        font-size: 18px;
+    }
+    .ban-sec p {
+        font-size: 18px;
+        width: 100%;
+    }
+    .ban-sec p {
+        font-size: 18px;
+        max-width: 95%;
+    }
+    .ban-btn a {
+        font-size: 18px;
+    }
+    .anim-imges {
+        display: flex;
+    }
+    .ban-sec .top-right-sec {
+        padding-top: 35px;
+    }
+    .abt-sec .abt-image {
+        width: 180px;
+        left: 15px;
+    }   
+    .abt-txt {
+        margin-top: 65px;
+    }
+    .abt-sec .card {
+        width: 100%;
+    }
+    .abt-sec .about-clinic:nth-child(2), .abt-sec .about-clinic:nth-child(4) {
+        padding: 0px;
+    }
+    .abt-sec .card {
+        width: 100%;
+        padding: 50px 0px;
+    }
+    .serv-sec .card {
+        text-align: center;
+    }
+    .conatct-sec {
+        text-align: center;
+    }
+    .conatct-sec ul li a, .conatct-sec p {
+        font-size: 18px;
+    }
+    .form-grp input {
+        width: 50%;
+        display: inline;
+        height: 50px;
+    }
+    .copy-rightsec p {
+        letter-spacing: 1px;
+    }
+
+}
+
+@media only screen and (min-width :769px) and (max-width: 991px) {
+    header {
+        overflow: hidden;
+    }
+    section {
+        overflow: hidden;
+    }
+    .menu-navbar {
+        text-align: center;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    .ban-sec p {
+        font-size: 15px;
+    }
+    .card {
+        height: 100%;
+        padding: 60px 40px;
+    }
+    .abt-sec .card {
+        width: 100%;
+        padding: 25px 20px;
+    }
+    .abt-sec .about-clinic:nth-child(2), .abt-sec .about-clinic:nth-child(4) {
+        padding-left: 18px;
+    }
+    .abt-sec .abt-image {
+        width: 150px;
+    }
+    .serv-sec .card {
+        padding: 40px 14px;
+    }
+    .main-center {
+        text-align: left;
+    }
+}

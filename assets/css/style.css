@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* Custom-Css Open */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.main-btn {
+    display: inline;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    padding: 12px 22px;
+    font-size: 16px;
+    background: transparent;
+    text-transform: capitalize;
+    border-radius: 3px;
+    transition:all 0.3s ease-in-out;
+}
+
+.main-btn:hover {
+    background-color: #fc5185;
+    border-color: #fc5185;
+    color: white;
+}
+
+.fill-btn {
+    background-color: #fc5185;
+    color: white;
+}
+
+.fill-btn:hover {
+ background-color: white;
+ border-color: white;
+ color: #000;
+}
+
+.card {
+    border-radius:10px ;
+    background-color: white;
+    box-shadow:8px 18px 40px 0 rgb(0 0 0 /8%);
+    padding: 60px 50px 75px;
+    transition: all .4s;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-size: 600;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+h2 {
+    font-size: 45px;
+    font-size: 600;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+h3 {
+    font-size: 36px;
+    font-size: 600;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+h4 {
+    font-size: 24px;
+    font-size: 600;
+    line-height: 36px;
+    color: #000;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+h5 {
+    font-size: 36px;
+    font-size: 500;
+    line-height: 19px;
+    color: #004caa;
+    margin-bottom: 15px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+h6 {
+    font-size: 14px;
+    font-size: 300;
+    line-height: 19px;
+    color: #000;
+    margin-bottom: 15px;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    line-height: 26px;
+}
+
+.wrapper {
+    padding: 100px 0px;
+}
+
+/* Custom-Css Close */
+
+/* NavBar Sec 0pen */
+
+.nav-hed .navbar {
+    padding: 15px;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+    background-color: white;
+}
+
+.nav-hed .navbar-toggler {
+    border: none;
+    color: #000;
+    line-height: 2;
+    box-shadow: none;
+} 
+
+.nav-hed .nav-item {
+    margin: 0px 10px;
+}
+
+.nav-hed .nav-item .nav-link {
+    font-size: 18px;
+    font-weight: 400;
+    color: #004caa;
+    font-family: "Josefin Sans", sans-serif;
+    /* border-radius: 5px; */
+    position: relative;
+}
+
+.nav-hed .nav-item .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: #fc5185;
+    left: 0;
+    bottom: 5px;
+    transition: .3s ease all;
+}
+
+.nav-hed .nav-item .nav-link:hover:after {
+width: 100%;
+}
+ 
+
+
+.nav-hed .nav-item .nav-link:hover,
+.nav-hed .nav-item .nav-link:focus,
+.nav-hed .nav-item .nav-link.active 
+    {
+    color: #fc5185;
+}
+
+.navbar.header-scrolled{
+position: fixed;
+top: 0;
+left: 0;
+z-index: 9999;
+width: 100%;
+background-color: white;
+box-shadow: 8px 18px 40px 0 rgb(0 0 0 /8%);
+transition: .15s ease all;
+}
+
+
+/* NavBar Sec Close */
+
+/* BannerSec Open */
+
+.ban-sec {
+    background-image: url(..//images/top-banner-img/Top-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ban-sec .top-right-sec {
+    background-image: url(..//images/top-banner-img/top-right-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 20px;
+    position: relative;
+}
+
+.ban-sec .anim-imges {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 22;
+}
+
+.ban-sec p {
+    max-width: 80%;
+    color: white;
+    margin-bottom: 40px;
+}
+
+/* BannerSec Close */
+
+/* About-Sec Open */
+.abt-sec h2 {
+    color: #000;
+}
+.abt-sec .card {
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.abt-sec .about-clinic {
+    width: 50%;
+    flex: 0 0 auto;
+}
+.abt-sec .about-clinic:nth-child(1),
+.abt-sec .about-clinic:nth-child(2){
+    margin-bottom: 45px;
+}
+.abt-sec .about-clinic:nth-child(2),
+.abt-sec .about-clinic:nth-child(4){
+    padding-left: 60px;
+}
+
+.abt-sec .line-1,
+.abt-sec .line-2 {
+content: '';
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+width: 1px;
+height: 100%;
+background-color: #000;
+}
+.abt-sec .line-2  {
+    width: 100%;
+    height: 1px;
+}
+.abt-sec .abt-image {
+    position: absolute;
+    left: -10px;
+    bottom: 0px;
+}
+
+/* About-Sec Close */
+
+/* ServiceSec-Open */
+
+.serv-sec {
+    background-color: #004caa;
+}
+
+.serv-sec .card {
+    background: transparent;
+    /* border: 10px solid #004caa; */
+    border: 1px solid white;
+    padding: 40px;
+}
+
+.serv-sec .card:hover {
+    background-color: #3672bc;
+    cursor: cell;
+    border-color: transparent;
+}
+
+.serv-sec .card h4,
+.serv-sec .card p   {
+    color: white;
+}
+
+.serv-sec .icon-box {
+    margin-bottom: 30px;
+}
+
+/* ServiceSec-Close */
+
+/* TeamSec-Open */
+
+.team-sec h3 {
+    color: #000;
+}
+
+.team-sec .card {
+    padding: 20px;
+}
+
+.team-sec .social-icon{
+    padding:10px 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.team-sec .social-icon li a {
+    width: 25px;
+    height: 25px;
+    background-color: #666;
+    color: white;
+    line-height: 25px;
+    display: block;
+    border-radius: 8px;
+    font-size: 12px;
+    transition: .3s all ease;
+}
+
+
+.team-sec .team-round .social-icon li a:hover {
+background-color: #fc5185;
+}
+
+/* TeamSec-Close */
+
+/* Gallery-sec Open */
+
+.GallerySec {
+   background-image: url(..//images/gallery/gallery-background.png);
+   background-repeat: no-repeat;
+   background-size:cover ;
+}
+
+.GallerySec img {
+    border-radius: 10px;
+}
+
+/* Gallery-sec Close */
+
+/* Testimonial-Sec Open */
+
+.testimonial-sec .card {
+    background-color: rgb(252, 81, 133,.05);
+}
+
+/* Testimonial-Sec Close */
+
+/* Footer-Sec */
+
+.conatct-sec {
+    background-color: #004caa;
+}
+
+.conatct-sec h5 {
+    color: white;
+    line-height: 40px;
+    font-size: 32px;
+}
+
+.conatct-sec ul li {
+    margin-bottom: 8px;
+    color: white;
+}
+
+.conatct-sec ul li a,
+.conatct-sec p {
+    color: white;
+    font-size: 14px;
+    position: relative;
+}
+
+.conatct-sec ul li a:hover {
+    color: #fc5185;
+}
+
+.conatct-sec .social-icon { 
+    justify-content: space-evenly;
+} 
+
+.conatct-sec .social-icon a{
+    background-color: transparent;
+    width: 35px;
+    height: 32px;
+    display: inline-block;
+    line-height: 32px;
+    border-radius: 100%;
+    text-align: center;
+    border: 1px solid white;
+    transition: .3s ease all;
+}
+
+.conatct-sec .social-icon a:hover {
+    background-color: #fc5185;
+    color: white;
+}
+
+.conatct-sec .copy-rightsec {
+text-align: center;
+background-color: #3672bc;
+padding: 10px;
+height: 50px;
+box-shadow:8px 18px 40px 0 rgb(0 0 0 /8%);
+letter-spacing: 10px;
+}
+
+.conatct-sec .copy-rightsec a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 10px;
+}
+
+.main-center {
+    text-align: center;
+} 
+
+
+
+
